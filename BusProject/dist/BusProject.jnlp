@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BusProject.jnlp">
+  <information>
+    <title>BusProject</title>
+    <vendor>roshan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BusProject.jar" size="8793283" download="eager" />
+    <jar href="lib/FXMessageBox.jar" size="24662" download="eager" />
+    <jar href="lib/log4j-1.2.8.jar" size="378609" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar" size="843090" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BusProject" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="bus.com.main.Main"  name="BusProject" />
+  <update check="always"/>
+</jnlp>

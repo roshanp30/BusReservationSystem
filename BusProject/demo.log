@@ -1,0 +1,1 @@
+23 Sep 2017 10:34:02 Level: ERROR  Class: bus.com.login.LoginController Method: handleButtonNextAction Message: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'Bus.customer1' doesn't exist 

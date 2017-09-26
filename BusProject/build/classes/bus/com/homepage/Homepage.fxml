@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="414.0" prefWidth="904.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bus.com.homepage.HomepageController">
+       <children>
+      <AnchorPane layoutX="158.0" prefHeight="93.0" prefWidth="561.0" style="-fx-background-color: white;" />
+      <Button layoutX="85.0" layoutY="136.0" mnemonicParsing="false" prefHeight="119.0" prefWidth="146.0" text="My Account" />
+      <ImageView fitHeight="417.0" fitWidth="606.0" pickOnBounds="true">
+         <image>
+            <Image url="@../resources/road-348544_1920.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="-4.0" layoutY="72.0" mnemonicParsing="false" opacity="0.34" prefHeight="113.0" prefWidth="132.0" style="-fx-background-color: blue;" text="My Bookings">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="1.0" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Button layoutX="146.0" layoutY="73.0" mnemonicParsing="false" opacity="0.64" prefHeight="113.0" prefWidth="132.0" style="-fx-background-color: red;" text="Book Bus" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+      <Button layoutX="294.0" layoutY="75.0" mnemonicParsing="false" opacity="0.49" prefHeight="113.0" prefWidth="132.0" style="-fx-background-color: yellow;" text="Customer care">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button layoutX="455.0" layoutY="75.0" mnemonicParsing="false" opacity="0.6" prefHeight="113.0" prefWidth="132.0" style="-fx-background-color: orange;" text="Button" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font></Button>
+       </children>
+</AnchorPane>
